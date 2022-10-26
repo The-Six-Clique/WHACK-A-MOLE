@@ -10,11 +10,13 @@ function start() {
     document.getElementById("start").style.visibility = "hidden";
     document.getElementById("mole").style.visibility = "hidden";
     document.getElementById("mud").style.visibility = "hidden";
+    
     for (var i = 0; i < 2; i++) {
         document.querySelector("#currentPoint").style.visibility = "visible";
         document.querySelector("#misshit").style.visibility = "visible";
         document.querySelector("#currentPoint1").style.visibility = "visible";
         document.querySelector("#misshit1").style.visibility = "visible";
+        // document.querySelector("#hammer").style.visibility = "visible";
     }
     for (var i = 1; i <= 9; i++) {
         document.querySelector(`#dirt${i}`).style.visibility = "visible";
@@ -108,6 +110,7 @@ function stop() {
     document.querySelector(".sou").style.visibility = "hidden";
     
 }
+
 
 
 

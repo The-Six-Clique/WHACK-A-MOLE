@@ -4,7 +4,16 @@ body {
     background-size: 100%;
     background-position: inherit;
     z-index: 0;
+    cursor: url("/image/hammer-removebg-preview.png"), pointer; 
+
 }
+
+/* #background { */
+/* background-repeat: no-repeat; */
+/* background-size: 100%; */
+/* background-position: inherit; */
+/* } */
+
 
 h1 {
     color: rgb(212, 109, 121);
@@ -62,6 +71,8 @@ h1 {
     position: absolute;
     height: 90px;
     z-index: 1;
+    z-index: 0;
+
 }
 
 #dirt1 {
@@ -137,6 +148,9 @@ h1 {
     height: 100px;
     width: 120px;
     z-index: 2;
+    z-index: 0;
+
+
 }
 
 #mole1,
@@ -207,6 +221,18 @@ h1 {
     font-weight: bolder;
     margin-top: 0%;
     visibility: hidden;
-    top:60%;
+    top: 60%;
 
+}
+
+#hammer {
+    position: absolute;
+    visibility: hidden;
+    z-index: 4;
+    height: 300px;
+}
+
+.cursor-cur {
+    height: 300px;
+    position: absolute;
 }
